@@ -20,13 +20,42 @@
     </header>
     <!--HeaderBar end-->
 
+    <!-- Swiper start -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+        <div class="swiper-slide">Slide 4</div>
+      </div>
+      <!-- 如果需要分页器 -->
+      <div class="swiper-pagination"></div>
+    </div>
+    <!-- Swiper end -->
+
     <router-view />
   </div>
 </template>
 
 <script>
+// 引入 Swiper 核心与 Swiper样式
+import Swiper from 'swiper'
+import 'swiper/css/swiper.css'
+
 export default {
-  name: 'Home'
+  name: 'Home',
+  mounted () {
+    /* eslint-disable */
+    var mySwiper = new Swiper(".swiper-container", {
+      loop: true, // 循环模式选项
+
+      // 如果需要分页器
+      pagination: {
+        el: ".swiper-pagination"
+      }
+    });
+    /* eslint-enable */
+  }
 }
 </script>
 
@@ -82,5 +111,25 @@ export default {
   .headerbar-right-user.active {
     display: block;
   }
+
+  .swiper-container {
+    width: 100%;
+    height: 180px;
+    background: pink;
+  }
+}
+</style>
+
+<style lang="scss">
+.swiper-pagination-bullet {
+  width: 6px;
+  height: 6px;
+  background: #fff;
+  opacity: initial;
+  border-radius: 28px;
+}
+.swiper-pagination-bullet-active {
+  background: #ff734c;
+  width: 32px;
 }
 </style>
