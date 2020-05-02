@@ -1,0 +1,303 @@
+{
+  "list": [
+    {
+      "proId": 4001,
+      "bigTitle": "送恋人/爱情鲜花",
+      "productList": [
+        {
+          "Cpmc": "一往情深",
+          "Instro": "精品玫瑰礼盒:19枝红玫瑰，勿忘我0.1扎",
+          "ItemCode": "9010966",
+          "LinePrice": 315,
+          "Price": 249,
+          "Sales": "12.1万",
+          "imgUrl": "https://img01.hua.com/uploadpic/newpic/9010966.jpg_220x240.jpg",
+          "Instro2": "经典爆款，年销售冠军！",
+          "instro3": "年销售冠军"
+        },
+        {
+          "Cpmc": "一心一意",
+          "Instro": "玫瑰11枝，粉色勿忘我0.3扎",
+          "ItemCode": "9010011",
+          "LinePrice": 189,
+          "Price": 139,
+          "Sales": "11.7万",
+          "imgUrl": "https://img01.hua.com/uploadpic/newpic/9010966.jpg_220x240.jpg",
+          "Instro2": "经典爆款，年销售冠军！",
+          "instro3": "年销售冠军"
+        },
+        {
+          "Cpmc": "不变的承诺",
+          "Instro": "99枝红玫瑰",
+          "ItemCode": "9012177",
+          "LinePrice": 869,
+          "Price": 520,
+          "Sales": "6.4万",
+          "imgUrl": "https://img01.hua.com/uploadpic/newpic/9010966.jpg_220x240.jpg",
+          "Instro2": "经典爆款，年销售冠军！",
+          "instro3": "年销售冠军"
+        },
+        {
+          "Cpmc": "恋恋情深",
+          "Instro": "11枝香槟玫瑰，白色多头百合2枝",
+          "ItemCode": "9012243",
+          "LinePrice": 255,
+          "Price": 198,
+          "Sales": "7.5万",
+          "imgUrl": "https://img01.hua.com/uploadpic/newpic/9010966.jpg_220x240.jpg",
+          "Instro2": "经典爆款，年销售冠军！",
+          "instro3": "年销售冠军"
+        },
+        {
+          "Cpmc": "忘情巴黎",
+          "Instro": "33枝红玫瑰",
+          "ItemCode": "9012009",
+          "LinePrice": 382,
+          "Price": 298,
+          "Sales": "6.8万",
+          "imgUrl": "https://img01.hua.com/uploadpic/newpic/9010966.jpg_220x240.jpg",
+          "Instro2": "经典爆款，年销售冠军！",
+          "instro3": "年销售冠军"
+        },
+        {
+          "Cpmc": "韩式系列/一路向阳",
+          "Instro": "向日葵3枝、香槟玫瑰9枝、橙色多头玫5枝、黄色腊梅5枝、大叶尤加利5枝",
+          "ItemCode": "9012452",
+          "LinePrice": 398,
+          "Price": 278,
+          "Sales": "6.2万",
+          "imgUrl": "https://img01.hua.com/uploadpic/newpic/9010966.jpg_220x240.jpg",
+          "Instro2": "经典爆款，年销售冠军！",
+          "instro3": "年销售冠军"
+        },
+        {
+          "Cpmc": "韩式系列/亲爱的你",
+          "Instro": "粉佳人玫瑰16枝、白和粉色洋桔梗各5枝、尤加利10枝、浅紫色小菊3枝、深粉色绣球1枝",
+          "ItemCode": "9012455",
+          "LinePrice": 469,
+          "Price": 368,
+          "Sales": "916",
+          "imgUrl": "https://img01.hua.com/uploadpic/newpic/9010966.jpg_220x240.jpg",
+          "Instro2": "经典爆款，年销售冠军！",
+          "instro3": "年销售冠军"
+        },
+        {
+          "Cpmc": "牵手一生",
+          "Instro": "红玫瑰19枝",
+          "ItemCode": "9010731",
+          "LinePrice": 281,
+          "Price": 198,
+          "Sales": "6.3万",
+          "imgUrl": "https://img01.hua.com/uploadpic/newpic/9010966.jpg_220x240.jpg",
+          "Instro2": "经典爆款，年销售冠军！",
+          "instro3": "年销售冠军"
+        }
+      ]
+    },
+    {
+      "proId": 4002,
+      "bigTitle": "永生花推荐",
+      "productList": [
+        {
+          "bigTitle": "送长辈鲜花",
+          "productList": [
+            {
+              "Cpmc": "韩式系列/温柔以待",
+              "Instro": "粉色康乃馨13枝，戴安娜玫瑰5枝、粉色洋桔梗5枝、浅紫紫罗兰5枝、尤加利10枝",
+              "ItemCode": "9012461",
+              "LinePrice": 299,
+              "Price": 239,
+              "Sales": "475"
+            },
+            {
+              "Cpmc": "恩情无限",
+              "Instro": "粉色康乃馨11枝，百合2枝",
+              "ItemCode": "9012189",
+              "LinePrice": 232,
+              "Price": 178,
+              "Sales": "1.3万"
+            },
+            {
+              "Cpmc": "幸福万年长",
+              "Instro": "红色康乃馨66枝，白边紫色多头康乃馨15枝，栀子叶2扎",
+              "ItemCode": "9012204",
+              "LinePrice": 486,
+              "Price": 338,
+              "Sales": "3606"
+            },
+            {
+              "Cpmc": "母爱",
+              "Instro": "紫红色康乃馨9枝，粉色多头康乃馨10枝",
+              "ItemCode": "9012092",
+              "LinePrice": 228,
+              "Price": 162,
+              "Sales": "1.6万"
+            },
+            {
+              "Cpmc": "妈妈我爱你",
+              "Instro": "粉色康乃馨、粉绣球、香槟玫瑰、洋牡丹、黄色香雪兰",
+              "ItemCode": "9012315",
+              "LinePrice": 549,
+              "Price": 429,
+              "Sales": "993"
+            },
+            {
+              "Cpmc": "馨情无限",
+              "Instro": "戴安娜玫瑰11枝，红色康乃馨11支，红色石竹梅4枝",
+              "ItemCode": "9012201",
+              "LinePrice": 312,
+              "Price": 239,
+              "Sales": "6526"
+            }
+          ]
+        },
+        {
+          "Cpmc": "柔情时光-进口香氛款",
+          "Instro": "日本进口双色玫瑰1朵，粉紫玫瑰1朵，浅粉紫康乃馨、奥斯丁、香槟粉黄金球各1朵，绣球、满天星适量",
+          "ItemCode": "1073173",
+          "LinePrice": 588,
+          "Price": 388,
+          "Sales": "3027"
+        },
+        {
+          "Cpmc": "幸福港湾",
+          "Instro": "进口粉色玫瑰1枝，浅紫色康乃馨1枝，浅粉桃色小玫瑰1朵",
+          "ItemCode": "1073128",
+          "LinePrice": 448,
+          "Price": 288,
+          "Sales": "2581"
+        },
+        {
+          "Cpmc": "爱与祝福",
+          "Instro": "紫心奥斯汀玫瑰1朵，进口粉色康乃馨1枝，浅粉桃色小玫瑰2朵",
+          "ItemCode": "1073039",
+          "LinePrice": 356,
+          "Price": 198,
+          "Sales": "7211"
+        },
+        {
+          "Cpmc": "花好月圆永生花台灯/母亲节定制",
+          "Instro": "精选进口多色永生康乃馨台灯",
+          "ItemCode": "1073276",
+          "LinePrice": 398,
+          "Price": 298,
+          "Sales": "85"
+        }
+      ]
+    },
+    {
+      "proId": 4003,
+      "bigTitle": "蛋糕推荐",
+      "productList": [
+        {
+          "Cpmc": "水果盛宴",
+          "Instro": "3磅(10寸)水果蛋糕",
+          "ItemCode": "5013046",
+          "LinePrice": 239,
+          "Price": 239,
+          "Sales": "3161"
+        },
+        {
+          "Cpmc": "四重奏蛋糕(约2磅)",
+          "Instro": "方形/巧克力/榴莲/慕斯蛋糕",
+          "ItemCode": "5602016",
+          "LinePrice": 296,
+          "Price": 228,
+          "Sales": "3204"
+        },
+        {
+          "Cpmc": "蝶恋花景(8寸)",
+          "Instro": "元祖鲜奶蛋糕，布丁加水果夹层",
+          "ItemCode": "5302008",
+          "LinePrice": 358,
+          "Price": 258,
+          "Sales": "2753"
+        },
+        {
+          "Cpmc": "多彩生活",
+          "Instro": "2磅(8寸)水果蛋糕",
+          "ItemCode": "5010040",
+          "LinePrice": 209,
+          "Price": 179,
+          "Sales": "5439"
+        }
+      ]
+    },
+    {
+      "proId": 4004,
+      "bigTitle": "礼品推荐",
+      "productList": [
+        {
+          "Cpmc": "麋鹿水晶音乐盒/旋转蓝牙音箱",
+          "Instro": "一路（鹿）有你，水晶球蓝牙音箱音乐盒",
+          "ItemCode": "1065046",
+          "LinePrice": 396,
+          "Price": 269,
+          "Sales": "23"
+        },
+        {
+          "Cpmc": "星期耳钉礼盒",
+          "Instro": "s925银个性耳钉",
+          "ItemCode": "1076062",
+          "LinePrice": 298,
+          "Price": 198,
+          "Sales": "1610"
+        },
+        {
+          "Cpmc": "林深时见鹿/创意卡通小鹿小夜灯led实木台灯",
+          "Instro": "创意小鹿台灯",
+          "ItemCode": "1087029",
+          "LinePrice": 368,
+          "Price": 239,
+          "Sales": "58"
+        },
+        {
+          "Cpmc": "迪奥口红2支(#520+#999)+迪奥花漾淡香水50ml",
+          "Instro": "Dior口红香水礼盒套装",
+          "ItemCode": "1076053",
+          "LinePrice": 1498,
+          "Price": 1398,
+          "Sales": "266"
+        }
+      ]
+    },
+    {
+      "proId": 4005,
+      "bigTitle": "巧克力推荐",
+      "productList": [
+        {
+          "Cpmc": "光板金樽礼遇多口味夹心巧克力礼盒装25颗",
+          "Instro": "夹心巧克力25颗",
+          "ItemCode": "1201021",
+          "LinePrice": 199,
+          "Price": 99,
+          "Sales": "317"
+        },
+        {
+          "Cpmc": "巧克巧蔻定制16粒装手工夹心巧克力",
+          "Instro": "手工夹心巧克力",
+          "ItemCode": "1207010",
+          "LinePrice": 388,
+          "Price": 288,
+          "Sales": "4631"
+        },
+        {
+          "Cpmc": "德国进口LAUENSTEIN巧克力手工松露酒味夹心金装礼盒",
+          "Instro": "德国进口酒心黑巧克力20粒",
+          "ItemCode": "1204060",
+          "LinePrice": 388,
+          "Price": 288,
+          "Sales": "34"
+        },
+        {
+          "Cpmc": "奢悦之美巧克力礼盒",
+          "Instro": "夹心巧克力",
+          "ItemCode": "1201003",
+          "LinePrice": 358,
+          "Price": 158,
+          "Sales": "5073"
+        }
+      ]
+    }
+  ]
+}

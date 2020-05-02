@@ -123,32 +123,32 @@
       <!-- scence end -->
 
       <!-- product start -->
-      <section class="product">
-        <h3 class="product-title">送恋人/爱情鲜花</h3>
+      <section class="product" v-for="item in products" :key="item.proId">
+        <h3 class="product-title">{{ item.bigTitle }}</h3>
         <div class="product-list">
-          <div class="product-item product-item-horizontal">
+          <div class="product-item product-item-horizontal" v-for="item2 in item.productList" :key="item2.ItemCode">
             <a
               href="/product/9010966.html?huaPid=homepage-f101"
               class="navigation"
             >
               <div class="product-item-pic">
                 <img
-                  src="https://img01.hua.com/uploadpic/newpic/9010966.jpg_220x240.jpg"
-                  alt="一往情深"
+                  :src="item2.imgUrl"
+                  :alt="item2.Cpmc"
                 />
               </div>
               <div class="product-item-info">
-                <p class="product-item-info-name text-overflow">一往情深</p>
+                <p class="product-item-info-name text-overflow">{{item2.Cpmc}}</p>
                 <!--Dev:: text-overflow Or text-overflow-line2-->
                 <!-- 限时抢购标签 tag-promo，同商品列表页  -->
                 <p class="product-item-info-desc text-overflow ">
-                  精品玫瑰礼盒:19枝红玫瑰，勿忘我0.1扎
+                  {{item2.Instro}}
                 </p>
                 <div class="product-item-info-tags">
-                  <span class="tag-promo">年销售冠军</span>
+                  <span class="tag-promo">{{item2.instro3}}</span>
                 </div>
                 <div class="product-item-info-promo">
-                  经典爆款，年销售冠军！
+                  {{item2.Instro2}}
                 </div>
                 <div class="product-item-info-bottom">
                   <div class="product-item-info-bottom-left">
@@ -157,9 +157,9 @@
                       data-id="9010966"
                       style="opacity: 1;"
                     >
-                      <strong>¥249</strong><s>¥315</s>
+                      <strong>¥{{item2.Price}}</strong><s>¥{{item2.LinePrice}}</s>
                     </p>
-                    <p class="product-item-info-sales">已销售12.1万件</p>
+                    <p class="product-item-info-sales">已销售{{item2.Sales}}件</p>
                   </div>
                   <div class="product-item-info-bottom-right" data-id="9010966">
                     <i class="iconfont iconfont-buy"></i>
@@ -168,287 +168,9 @@
               </div>
             </a>
           </div>
-          <div class="product-item product-item-horizontal">
-            <a
-              href="/product/9010011.html?huaPid=homepage-f102"
-              class="navigation"
-            >
-              <div class="product-item-pic">
-                <img
-                  src="https://img01.hua.com/uploadpic/newpic/9010011.jpg_220x240.jpg"
-                  alt="一心一意"
-                />
-              </div>
-              <div class="product-item-info">
-                <p class="product-item-info-name text-overflow">一心一意</p>
-                <!--Dev:: text-overflow Or text-overflow-line2-->
-                <!-- 限时抢购标签 tag-promo，同商品列表页  -->
-                <p class="product-item-info-desc text-overflow ">
-                  玫瑰11枝，粉色勿忘我0.3扎
-                </p>
-                <div class="product-item-info-tags">
-                  <span class="tag-promo">畅销爆款</span>
-                </div>
-                <div class="product-item-info-promo">经典款式 精选爆款</div>
-                <div class="product-item-info-bottom">
-                  <div class="product-item-info-bottom-left">
-                    <p
-                      class="product-item-info-prices"
-                      data-id="9010011"
-                      style="opacity: 1;"
-                    >
-                      <strong>¥139</strong><s>¥189</s>
-                    </p>
-                    <p class="product-item-info-sales">已销售11.7万件</p>
-                  </div>
-                  <div class="product-item-info-bottom-right" data-id="9010011">
-                    <i class="iconfont iconfont-buy"></i>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="product-item product-item-horizontal">
-            <a
-              href="/product/9012177.html?huaPid=homepage-f103"
-              class="navigation"
-            >
-              <div class="product-item-pic">
-                <img
-                  src="https://img01.hua.com/uploadpic/newpic/9012177.jpg_220x240.jpg"
-                  alt="不变的承诺"
-                />
-              </div>
-              <div class="product-item-info">
-                <p class="product-item-info-name text-overflow">不变的承诺</p>
-                <!--Dev:: text-overflow Or text-overflow-line2-->
-                <!-- 限时抢购标签 tag-promo，同商品列表页  -->
-                <p class="product-item-info-desc text-overflow ">99枝红玫瑰</p>
-                <div class="product-item-info-tags">
-                  <span class="tag-promo">经典99枝</span>
-                </div>
-                <div class="product-item-info-promo">经典99枝，鼎力推荐！</div>
-                <div class="product-item-info-bottom">
-                  <div class="product-item-info-bottom-left">
-                    <p
-                      class="product-item-info-prices"
-                      data-id="9012177"
-                      style="opacity: 1;"
-                    >
-                      <strong>¥520</strong><s>¥869</s>
-                    </p>
-                    <p class="product-item-info-sales">已销售6.4万件</p>
-                  </div>
-                  <div class="product-item-info-bottom-right" data-id="9012177">
-                    <i class="iconfont iconfont-buy"></i>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="product-item product-item-horizontal">
-            <a
-              href="/product/9012243.html?huaPid=homepage-f104"
-              class="navigation"
-            >
-              <div class="product-item-pic">
-                <img
-                  src="https://img01.hua.com/uploadpic/newpic/9012243.jpg_220x240.jpg"
-                  alt="恋恋情深"
-                />
-              </div>
-              <div class="product-item-info">
-                <p class="product-item-info-name text-overflow">恋恋情深</p>
-                <!--Dev:: text-overflow Or text-overflow-line2-->
-                <!-- 限时抢购标签 tag-promo，同商品列表页  -->
-                <p class="product-item-info-desc text-overflow-line2 ">
-                  11枝香槟玫瑰，白色多头百合2枝
-                </p>
-                <div class="product-item-info-promo">经典款式 简约设计</div>
-                <div class="product-item-info-bottom">
-                  <div class="product-item-info-bottom-left">
-                    <p
-                      class="product-item-info-prices"
-                      data-id="9012243"
-                      style="opacity: 1;"
-                    >
-                      <strong>¥198</strong><s>¥255</s>
-                    </p>
-                    <p class="product-item-info-sales">已销售7.5万件</p>
-                  </div>
-                  <div class="product-item-info-bottom-right" data-id="9012243">
-                    <i class="iconfont iconfont-buy"></i>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="product-item product-item-horizontal">
-            <a
-              href="/product/9012009.html?huaPid=homepage-f105"
-              class="navigation"
-            >
-              <div class="product-item-pic">
-                <img
-                  src="https://img01.hua.com/uploadpic/newpic/9012009.jpg_220x240.jpg"
-                  alt="忘情巴黎"
-                />
-              </div>
-              <div class="product-item-info">
-                <p class="product-item-info-name text-overflow">忘情巴黎</p>
-                <!--Dev:: text-overflow Or text-overflow-line2-->
-                <!-- 限时抢购标签 tag-promo，同商品列表页  -->
-                <p class="product-item-info-desc text-overflow ">33枝红玫瑰</p>
-                <div class="product-item-info-tags">
-                  <span class="tag-promo">畅销爆款</span>
-                </div>
-                <div class="product-item-info-promo">浪漫唯美 女神挚爱</div>
-                <div class="product-item-info-bottom">
-                  <div class="product-item-info-bottom-left">
-                    <p
-                      class="product-item-info-prices"
-                      data-id="9012009"
-                      style="opacity: 1;"
-                    >
-                      <strong>¥298</strong><s>¥382</s>
-                    </p>
-                    <p class="product-item-info-sales">已销售6.8万件</p>
-                  </div>
-                  <div class="product-item-info-bottom-right" data-id="9012009">
-                    <i class="iconfont iconfont-buy"></i>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="product-item product-item-horizontal">
-            <a
-              href="/product/9012452.html?huaPid=homepage-f106"
-              class="navigation"
-            >
-              <div class="product-item-pic">
-                <img
-                  src="https://img01.hua.com/uploadpic/newpic/9012452.jpg_220x240.jpg"
-                  alt="韩式系列/一路向阳"
-                />
-              </div>
-              <div class="product-item-info">
-                <p class="product-item-info-name text-overflow">
-                  韩式系列/一路向阳
-                </p>
-                <!--Dev:: text-overflow Or text-overflow-line2-->
-                <!-- 限时抢购标签 tag-promo，同商品列表页  -->
-                <p class="product-item-info-desc text-overflow ">
-                  向日葵3枝、香槟玫瑰9枝、橙色多头玫5枝、黄色腊梅5枝、大叶尤加利5枝
-                </p>
-                <div class="product-item-info-tags">
-                  <span class="tag-promo">全新韩式系列</span>
-                </div>
-                <div class="product-item-info-promo">
-                  花艺师打造 韩式花束系列
-                </div>
-                <div class="product-item-info-bottom">
-                  <div class="product-item-info-bottom-left">
-                    <p
-                      class="product-item-info-prices"
-                      data-id="9012452"
-                      style="opacity: 1;"
-                    >
-                      <strong>¥278</strong><s>¥398</s>
-                    </p>
-                    <p class="product-item-info-sales">已销售6.2万件</p>
-                  </div>
-                  <div class="product-item-info-bottom-right" data-id="9012452">
-                    <i class="iconfont iconfont-buy"></i>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="product-item product-item-horizontal">
-            <a
-              href="/product/9012455.html?huaPid=homepage-f107"
-              class="navigation"
-            >
-              <div class="product-item-pic">
-                <img
-                  src="https://img01.hua.com/uploadpic/newpic/9012455.jpg_220x240.jpg"
-                  alt="韩式系列/亲爱的你"
-                />
-              </div>
-              <div class="product-item-info">
-                <p class="product-item-info-name text-overflow">
-                  韩式系列/亲爱的你
-                </p>
-                <!--Dev:: text-overflow Or text-overflow-line2-->
-                <!-- 限时抢购标签 tag-promo，同商品列表页  -->
-                <p class="product-item-info-desc text-overflow ">
-                  粉佳人玫瑰16枝、白和粉色洋桔梗各5枝、尤加利10枝、浅紫色小菊3枝、深粉色绣球1枝
-                </p>
-                <div class="product-item-info-tags">
-                  <span class="tag-promo">全新韩式系列</span>
-                </div>
-                <div class="product-item-info-promo">
-                  花艺师打造 韩式花束系列
-                </div>
-                <div class="product-item-info-bottom">
-                  <div class="product-item-info-bottom-left">
-                    <p
-                      class="product-item-info-prices"
-                      data-id="9012455"
-                      style="opacity: 1;"
-                    >
-                      <strong>¥368</strong><s>¥469</s>
-                    </p>
-                    <p class="product-item-info-sales">已销售932件</p>
-                  </div>
-                  <div class="product-item-info-bottom-right" data-id="9012455">
-                    <i class="iconfont iconfont-buy"></i>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="product-item product-item-horizontal">
-            <a
-              href="/product/9010731.html?huaPid=homepage-f108"
-              class="navigation"
-            >
-              <div class="product-item-pic">
-                <img
-                  src="https://img01.hua.com/uploadpic/newpic/9010731.jpg_220x240.jpg"
-                  alt="牵手一生"
-                />
-              </div>
-              <div class="product-item-info">
-                <p class="product-item-info-name text-overflow">牵手一生</p>
-                <!--Dev:: text-overflow Or text-overflow-line2-->
-                <!-- 限时抢购标签 tag-promo，同商品列表页  -->
-                <p class="product-item-info-desc text-overflow-line2 ">
-                  红玫瑰19枝
-                </p>
-                <div class="product-item-info-promo">精选材料 简约搭配</div>
-                <div class="product-item-info-bottom">
-                  <div class="product-item-info-bottom-left">
-                    <p
-                      class="product-item-info-prices"
-                      data-id="9010731"
-                      style="opacity: 1;"
-                    >
-                      <strong>¥198</strong><s>¥281</s>
-                    </p>
-                    <p class="product-item-info-sales">已销售6.3万件</p>
-                  </div>
-                  <div class="product-item-info-bottom-right" data-id="9010731">
-                    <i class="iconfont iconfont-buy"></i>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
         </div>
         <div class="product-more">
-          <a href="/aiqingxianhua/" class="product-more-btn">查看更多</a>
+          <router-link to="/" class="product-more-btn">查看更多</router-link>
         </div>
       </section>
       <!-- product end -->
@@ -508,7 +230,8 @@ export default {
       scene2: [],
       scene3: [],
       scene4: [],
-      // ProductPrices: [],
+      products: [],
+      productList: [],
       isActive: true
     }
   },
@@ -520,8 +243,8 @@ export default {
       this.scene2 = res.scene2
       this.scene3 = res.scene3
       this.scene4 = res.scene4
-      // this.ProductPrices = res.productPrices
-      // console.log(res.ProductPrices)
+      this.products = res.products
+      console.log(res.products)
     })
   }
 }
@@ -889,7 +612,7 @@ export default {
     padding: 10px 0;
     border-top: 2px solid #e9ecf0;
     border-bottom: 2px solid #e9ecf0;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
   }
   .product-item.product-item-horizontal .product-item-info-bottom {

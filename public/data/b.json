@@ -1,0 +1,235 @@
+{
+  "bannerList": [
+    {
+      "banId": 1001,
+      "imgUrl": "https://img02.hua.com/slider/20_mothersday_m.jpg"
+    },
+    {
+      "banId": 1002,
+      "imgUrl": "https://img02.hua.com/slider/19_birthday_banner_m.jpg"
+    },
+    {
+      "banId": 1003,
+      "imgUrl": "https://img02.hua.com/slider/18_youflower_m.jpg"
+    },
+    {
+      "banId": 1004,
+      "imgUrl": "https://img02.hua.com/slider/18_jinniu_m.jpg"
+    }
+  ],
+  "navProcate": [
+    {
+      "procateId": 2001,
+      "imgUrl": "https://img02.hua.com/m/home/img/m_home_category_flower.png",
+      "alt": "鲜花"
+    },
+    {
+      "procateId": 2002,
+      "imgUrl": "https://img02.hua.com/m/home/img/m_home_category_ppf.png",
+      "alt": "永生花"
+    },
+    {
+      "procateId": 2003,
+      "imgUrl": "https://img02.hua.com/m/home/img/m_home_category_cake.png",
+      "alt": "蛋糕"
+    },
+    {
+      "procateId": 2004,
+      "imgUrl": "https://img02.hua.com/m/home/img/m_home_category_gift.png",
+      "alt": "礼品"
+    },
+    {
+      "procateId": 2005,
+      "imgUrl": "https://img02.hua.com/m/home/img/m_home_category_chocolate.png",
+      "alt": "巧克力"
+    }
+  ],
+  "scene1": [
+    {
+      "sceneId": 3001,
+      "title": "送恋人",
+      "imgUrl": "https://img02.hua.com/m/home/img/m_home_use_lover.png"
+    },
+    {
+      "sceneId": 3002,
+      "title": "送长辈",
+      "imgUrl": "https://img02.hua.com/m/home/img/m_home_use_elder.png"
+    },
+    {
+      "sceneId": 3003,
+      "title": "送朋友",
+      "imgUrl": "https://img02.hua.com/m/home/img/m_home_use_friends.png"
+    }
+  ],
+  "scene2": [
+    {
+      "sceneId": 3004,
+      "title": "生日祝福",
+      "imgUrl": "https://img02.hua.com/m/home/img/m_home_use_birthday2.png"
+    },
+    {
+      "sceneId": 3005,
+      "title": "表白求婚",
+      "imgUrl": "https://img02.hua.com/m/home/img/m_home_use_profess2.png"
+    },
+    {
+      "sceneId": 3006,
+      "title": "开业商务",
+      "imgUrl": "https://img02.hua.com/m/home/img/m_home_use_business2.png"
+    },
+    {
+      "sceneId": 3007,
+      "title": "周年纪念",
+      "imgUrl": "https://img02.hua.com/m/home/img/m_home_use_anniversary2.png"
+    }
+  ],
+  "scene3": [
+    {
+      "sceneId": 3011,
+      "title": "热销榜",
+      "ft1": "集万千宠爱",
+      "ft2": "大家都在买",
+      "ft3": "热销11.7万束",
+      "imgUrl": "https://img02.hua.com/m/home/img/m_home_ranklist2.png"
+    },
+    {
+      "sceneId": 3012,
+      "title": "特价专区",
+      "ft1": "超值好货",
+      "ft2": "限时直降",
+      "ft3": "￥158",
+      "ft4": "￥186",
+      "imgUrl": "https://img02.hua.com/m/home/img/m_home_special2.png"
+    }
+  ],
+  "scene4": [
+    {
+      "sceneId": 3008,
+      "title": "新品来袭",
+      "imgUrl": "https://img02.hua.com/m/home/img/m_home_category_new2.png"
+    },
+    {
+      "sceneId": 3009,
+      "title": "品味之选",
+      "imgUrl": "https://img02.hua.com/m/home/img/m_home_category_quality2.png"
+    },
+    {
+      "sceneId": 3010,
+      "title": "设计师臻选",
+      "imgUrl": "https://img02.hua.com/m/home/img/m_home_category_you2.png"
+    }
+  ],
+  "products": [
+    {
+      "productId":"4001",
+      "bigTitle":"送恋人/爱情鲜花"
+    },
+    {
+      "productId":"4002",
+      "bigTitle":"送长辈鲜花"
+    }
+  ],
+  "ProductPrices": [
+    {
+      "Cpmc": "一往情深",
+      "Instro": "精品玫瑰礼盒:19枝红玫瑰，勿忘我0.1扎",
+      "ItemCode": "9010966",
+      "LinePrice": 315,
+      "Price": 249,
+      "Sales": "12.1万",
+      "imgUrl": "https://img01.hua.com/uploadpic/newpic/9010966.jpg_220x240.jpg",
+      "Instro2": "经典爆款，年销售冠军！",
+      "instro3": "年销售冠军"
+    },
+    {
+      "Cpmc": "一心一意",
+      "Instro": "玫瑰11枝，粉色勿忘我0.3扎",
+      "ItemCode": "9010011",
+      "LinePrice": 189,
+      "Price": 139,
+      "Sales": "11.7万",
+      "imgUrl": "https://img01.hua.com/uploadpic/newpic/9010966.jpg_220x240.jpg",
+      "Instro2": "经典爆款，年销售冠军！",
+      "instro3": "年销售冠军"
+    },
+    {
+      "Cpmc": "不变的承诺",
+      "Instro": "99枝红玫瑰",
+      "ItemCode": "9012177",
+      "LinePrice": 869,
+      "Price": 520,
+      "Sales": "6.4万",
+      "imgUrl": "https://img01.hua.com/uploadpic/newpic/9010966.jpg_220x240.jpg",
+      "Instro2": "经典爆款，年销售冠军！",
+      "instro3": "年销售冠军"
+    },
+    {
+      "Cpmc": "恋恋情深",
+      "Instro": "11枝香槟玫瑰，白色多头百合2枝",
+      "ItemCode": "9012243",
+      "LinePrice": 255,
+      "Price": 198,
+      "Sales": "7.5万",
+      "imgUrl": "https://img01.hua.com/uploadpic/newpic/9010966.jpg_220x240.jpg",
+      "Instro2": "经典爆款，年销售冠军！",
+      "instro3": "年销售冠军"
+    },
+    {
+      "Cpmc": "忘情巴黎",
+      "Instro": "33枝红玫瑰",
+      "ItemCode": "9012009",
+      "LinePrice": 382,
+      "Price": 298,
+      "Sales": "6.8万",
+      "imgUrl": "https://img01.hua.com/uploadpic/newpic/9010966.jpg_220x240.jpg",
+      "Instro2": "经典爆款，年销售冠军！",
+      "instro3": "年销售冠军"
+    },
+    {
+      "Cpmc": "不变的承诺",
+      "Instro": "99枝红玫瑰",
+      "ItemCode": "9012177",
+      "LinePrice": 869,
+      "Price": 520,
+      "Sales": "6.4万",
+      "imgUrl": "https://img01.hua.com/uploadpic/newpic/9010966.jpg_220x240.jpg",
+      "Instro2": "经典爆款，年销售冠军！",
+      "instro3": "年销售冠军"
+    },
+    {
+      "Cpmc": "韩式系列/一路向阳",
+      "Instro": "向日葵3枝、香槟玫瑰9枝、橙色多头玫5枝、黄色腊梅5枝、大叶尤加利5枝",
+      "ItemCode": "9012452",
+      "LinePrice": 398,
+      "Price": 278,
+      "Sales": "6.2万",
+      "imgUrl": "https://img01.hua.com/uploadpic/newpic/9010966.jpg_220x240.jpg",
+      "Instro2": "经典爆款，年销售冠军！",
+      "instro3": "年销售冠军"
+    },
+    {
+      "Cpmc": "韩式系列/亲爱的你",
+      "Instro": "粉佳人玫瑰16枝、白和粉色洋桔梗各5枝、尤加利10枝、浅紫色小菊3枝、深粉色绣球1枝",
+      "ItemCode": "9012455",
+      "LinePrice": 469,
+      "Price": 368,
+      "Sales": "916",
+      "imgUrl": "https://img01.hua.com/uploadpic/newpic/9010966.jpg_220x240.jpg",
+      "Instro2": "经典爆款，年销售冠军！",
+      "instro3": "年销售冠军"
+    },
+    {
+      "Cpmc": "牵手一生",
+      "Instro": "红玫瑰19枝",
+      "ItemCode": "9010731",
+      "LinePrice": 281,
+      "Price": 198,
+      "Sales": "6.3万",
+      "imgUrl": "https://img01.hua.com/uploadpic/newpic/9010966.jpg_220x240.jpg",
+      "Instro2": "经典爆款，年销售冠军！",
+      "instro3": "年销售冠军"
+    }
+  ]
+}
+
+// "proId": 4001,
