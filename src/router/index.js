@@ -1,10 +1,11 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-import Home from '../views/Home'
-import All from '../views/Home/All'
-import Member from '../views/Home/Member'
-import Shopping from '../views/Home/Shopping'
+import Mind from '../views/Mind'
+import Home from '../views/Mind/Home'
+import All from '../views/Mind/All'
+import Member from '../views/Mind/Member'
+import Shopping from '../views/Mind/Shopping'
 import Cake from '../views/Cake'
 import Chocolates from '../views/Chocolates'
 import Flower from '../views/Flower'
@@ -19,12 +20,12 @@ import Yongsheng from '../views/Yongsheng'
 Vue.use(VueRouter)
 
 const routes = [{
-  path: '/home',
-  component: Home,
+  path: '/mind',
+  component: Mind,
   children: [
     {
-      path: 'all',
-      component: All
+      path: '/home',
+      component: Home
     },
     {
       path: 'member',
@@ -33,6 +34,14 @@ const routes = [{
     {
       path: 'shopping',
       component: Shopping
+    },
+    {
+      path: 'all',
+      component: All
+    },
+    {
+      path: '',
+      redirect: '/home'
     }
   ]
 },
@@ -45,7 +54,7 @@ const routes = [{
   component: Chocolates
 },
 {
-  path: 'flower',
+  path: '/flower',
   component: Flower
 },
 {
@@ -78,7 +87,7 @@ const routes = [{
 },
 {
   path: '/',
-  redirect: '/home'
+  redirect: '/mind'
 }
 ]
 

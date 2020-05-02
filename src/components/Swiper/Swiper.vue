@@ -1,0 +1,79 @@
+<template>
+  <div class="swiper-container" ref="swiper">
+    <div class="swiper-wrapper">
+      <!-- 组件模板里指定插槽位置 -->
+      <slot></slot>
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
+  </div>
+</template>
+
+<script>
+// 引入 Swiper 核心与 Swiper样式
+import Swiper from 'swiper'
+import 'swiper/css/swiper.css'
+export default {
+  name: 'Swiper',
+  props: {
+    autoplay: {
+      type: Number,
+      default: 0
+    }
+  },
+  mounted () {
+    // new 之前的this 是指当前组件的实例
+    const that = this
+    /* eslint-disable */
+    // 1-1 this.$refs.swiper  在普通的 DOM 元素上使用，引用指向的就是 DOM 元素
+    // 1-2 this.$el 拿到 Vue 实例使用的根 DOM 元素
+    // 1-1 与 1-2 拿到的内容相同
+    new Swiper(this.$refs.swiper, {
+      loop: true, // 循环模式选项
+      // 分页器
+      pagination: {
+        el: ".swiper-pagination"
+      },
+      // 自动轮播(属性配置)
+      autoplay: this.autoplay
+        ? {
+            delay: this.autoplay, // 自动轮播间隔，是0就不轮播
+            // delay: 2000,
+            stopOnLastSlide: false,
+            disableOnInteraction: true,
+          }
+        : false,
+      on: {
+        // 此处的 this 指向Swiper的实例
+        slideChangeTransitionEnd: function() {
+          // alert(this.activeIndex);//切换结束时，告诉我现在是第几个slide
+          // realIndex 不会将 loop 复制的块计算在内
+          // console.log(this.realIndex)
+          // 用当前组件的实例去调用自定义事件
+          that.$emit("change", this.realIndex);
+        }
+      }
+    });
+    /* eslint-enable */
+  }
+}
+</script>
+
+<style lang="scss">
+.swiper-container {
+  width: 100%;
+  height: 180px;
+  background: pink;
+}
+.swiper-pagination-bullet {
+  width: 6px;
+  height: 6px;
+  background: #fff;
+  opacity: initial;
+  border-radius: 28px;
+}
+.swiper-pagination-bullet-active {
+  background: #ff734c;
+  width: 32px;
+}
+</style>
