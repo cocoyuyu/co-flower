@@ -128,7 +128,7 @@ export default {
       scene2: [],
       scene3: [],
       scene4: [],
-      products: [],
+      products: []
       // isActive: true
     }
   },

@@ -20,7 +20,7 @@ import Yongsheng from '../views/Yongsheng'
 Vue.use(VueRouter)
 
 const routes = [{
-  path: '/mind',
+  path: '/',
   component: Mind,
   children: [
     {
@@ -41,7 +41,7 @@ const routes = [{
     },
     {
       path: '',
-      redirect: '/home'
+      redirect: 'home'
     }
   ]
 },

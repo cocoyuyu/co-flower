@@ -14,7 +14,6 @@ export default {
   name: 'Member',
   data () {
     return {
-      // isActive: true
     }
   },
   components: {

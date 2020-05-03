@@ -1302,7 +1302,6 @@ export default {
   name: 'All',
   data () {
     return {
-      // isActive: true
     }
   },
   components: {

@@ -2,7 +2,7 @@
   <nav class="tabbar">
     <div class="tabbar-item">
       <router-link
-        to="/mind/home"
+        to="/home"
         class="navigation"
       >
         <!-- <i class="iconfont icon-iconfontcategory"></i> -->
@@ -11,7 +11,7 @@
     </div>
     <div class="tabbar-item">
       <router-link
-        to="/mind/all"
+        to="/all"
         class="navigation"
       >
         <!-- <i class="iconfont icon-iconfontcategory"></i> -->
@@ -20,7 +20,7 @@
     </div>
     <div class="tabbar-item" data="">
       <router-link
-        to="/mind/shopping"
+        to="/shopping"
         class="navigation"
       >
         <!-- <i class="iconfont icon-iconfontcategory" id="cartCount"></i> -->
@@ -29,7 +29,7 @@
     </div>
     <div class="tabbar-item">
       <router-link
-        to="/mind/member"
+        to="/member"
         class="navigation"
       >
         <!-- <i class="iconfont icon-iconfontcategory"></i> -->
