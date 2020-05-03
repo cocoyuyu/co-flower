@@ -1,6 +1,7 @@
 <template>
   <div class="page-member">
     <h1>个人中心页面</h1>
+    <router-link to="/loginr" class="sbtn">点击跳到登录注册页面</router-link>
     <!-- Tabbar-footer start -->
     <TabbarFooter></TabbarFooter>
     <!-- Tabbar-footer end -->
@@ -21,3 +22,8 @@ export default {
   }
 }
 </script>
+<style lang="scss" scoped>
+.sbtn {
+  color: skyblue
+}
+</style>

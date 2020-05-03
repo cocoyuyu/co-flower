@@ -1372,7 +1372,7 @@ export default {
     padding-top: 38px;
     .navigation {
       img {
-        margin-left: 14px !important;
+        margin-left: 14px;
       }
     }
   }
@@ -1439,7 +1439,7 @@ export default {
     display: block;
   }
   .catebox-details-banner {
-    height: 84px;
+    height: 98px;
     overflow: hidden;
     margin-bottom: 10px;
     img {
