@@ -24,7 +24,7 @@ const routes = [{
   component: Mind,
   children: [
     {
-      path: '/home',
+      path: 'home',
       component: Home
     },
     {

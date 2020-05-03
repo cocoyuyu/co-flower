@@ -89,38 +89,9 @@
       <Product v-for="item in products" :key="item.proId" :info="item"></Product>
       <!-- product end -->
     </div>
-    <!-- nav-footer start -->
-    <nav class="tabbar">
-      <div class="tabbar-item active">
-        <router-link
-          to="/mind"
-          class="navigation"
-          :class="{ active: isActive }"
-        >
-          <!-- <i class="iconfont icon-iconfontcategory"></i> -->
-          <p>首页</p>
-        </router-link>
-      </div>
-      <div class="tabbar-item">
-        <router-link to="/mind/all" class="navigation">
-          <!-- <i class="iconfont icon-iconfontcategory"></i> -->
-          <p>分类</p>
-        </router-link>
-      </div>
-      <div class="tabbar-item" data="">
-        <router-link to="/mind/shopping" class="navigation">
-          <!-- <i class="iconfont icon-iconfontcategory" id="cartCount"></i> -->
-          <p>购物车</p>
-        </router-link>
-      </div>
-      <div class="tabbar-item">
-        <router-link to="/mind/member" class="navigation">
-          <!-- <i class="iconfont icon-iconfontcategory"></i> -->
-          <p>我的</p>
-        </router-link>
-      </div>
-    </nav>
-    <!-- nav-footer end -->
+    <!-- Tabbar-footer start -->
+    <TabbarFooter></TabbarFooter>
+    <!-- Tabbar-footer end -->
   </div>
 </template>
 
@@ -130,6 +101,7 @@ import CompanyInfo from './Components/CompanyInfo'
 import NavProcate from './Components/NavProcate'
 import Scene1 from './Components/Scene1'
 import Product from '@/components/Product'
+import TabbarFooter from '@/components/TabbarFooter'
 
 // 引入 Swiper 核心与 Swiper样式
 import { Swiper, SwiperItem } from '@/components/Swiper'
@@ -145,7 +117,8 @@ export default {
     SwiperItem,
     NavProcate,
     Scene1,
-    Product
+    Product,
+    TabbarFooter
   },
   data () {
     return {
@@ -156,8 +129,7 @@ export default {
       scene3: [],
       scene4: [],
       products: [],
-      productList: [],
-      isActive: true
+      // isActive: true
     }
   },
   created () {
@@ -186,43 +158,6 @@ export default {
   .my-swiper img {
     width: 100%;
     height: 100%;
-  }
-
-  .tabbar {
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    font-size: 14px;
-    z-index: 9999;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    background: #f7f9fa;
-    .tabbar-item {
-      height: 48px;
-      line-height: 48px;
-      flex: 1;
-      text-align: center;
-      .navigation {
-        display: block;
-      }
-      .iconfont {
-        font-size: 24px;
-        margin-top: 10px;
-        position: relative;
-      }
-      p {
-        font-size: 12px;
-        border: 0;
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-      }
-      .active {
-        color: #ff734c;
-      }
-    }
   }
 
   .procate {

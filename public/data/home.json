@@ -44,6 +44,24 @@
       "alt": "巧克力"
     }
   ],
+  "navFooter": [
+    {
+      "footerId": 5001,
+      "footer": "首页"
+    },
+    {
+      "footerId": 5002,
+      "footer": "分类"
+    },
+    {
+      "footerId": 5003,
+      "footer": "购物车"
+    },
+    {
+      "footerId": 5004,
+      "footer": "我的"
+    }
+  ],
   "scene1": [
     {
       "sceneId": 3001,
