@@ -244,7 +244,7 @@ section.main .guess-item-detail {
   padding: 0.5px 6px;
 }
 section.main .guess-item-detail .guess-item-info {
-  font-size: 10px;
+  font-size: 12px;
   color: #232628;
   overflow: hidden;
   text-overflow: ellipsis;

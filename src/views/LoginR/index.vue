@@ -1,6 +1,5 @@
 <template>
   <div class="page-login-r">
-    <h1>登录注册页面</h1>
     <div class="login">
       <div class="login-item">
         <div class="login-item-title">手机号</div>
@@ -42,70 +41,53 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.login {
+  box-sizing: border-box;
+  padding: 40px 20px 0 20px
+}
 .login-item + .login-item {
-  margin-top: 1.78571429rem;
+  margin-top: 20px;
 }
 .login-item-tips {
-  font-size: 0.85714286rem;
+  font-size: 13px;
   color: #ff734c;
-  margin-bottom: 1.78571429rem;
-  margin-top: 0.14285714rem;
+  margin-bottom: 20px;
+  margin-top: 2px;
 }
 .login-item-title {
-  font-size: 0.92857143rem;
+  font-size: 13px;
 }
 .login-item-info {
-  margin-top: 0.28571429rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
+  margin-top: 3px;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
   align-items: center;
 }
 .login-item-info > input {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
   flex: 1;
-  font-size: 1.21428571rem;
+  font-size: 14px;
   outline: none;
   border: none;
-  padding: 0.5rem 0 0.5rem 0.14285714rem;
+  padding: 6px 0 0.5rem 2px;
   color: #232628;
 }
 input::-webkit-input-placeholder {
-  font-size: 1.07142857rem;
-  color: #b4babf;
-}
-input::-moz-placeholder {
-  font-size: 1.07142857rem;
-  color: #b4babf;
-}
-input:-ms-input-placeholder {
-  font-size: 1.07142857rem;
-  color: #b4babf;
-}
-input::-ms-input-placeholder {
-  font-size: 1.07142857rem;
+  font-size: 12px;
   color: #b4babf;
 }
 input::placeholder {
-  font-size: 1.07142857rem;
+  font-size: 12px;
   color: #b4babf;
 }
 .login-item-info-icon {
-  width: 3.14285714rem;
+  width: 36px;
   text-align: center;
   cursor: pointer;
   color: #b4babf;
 }
 .login-item-info-btn {
-  padding: 0.28571429rem 0.57142857rem;
+  padding: 3px 6px;
   color: #71797f;
-  font-size: 0.92857143rem;
+  font-size: 13px;
   white-space: nowrap;
   text-align: center;
 }
@@ -113,28 +95,24 @@ input::placeholder {
   color: #ff734c;
 }
 .to-login {
-  margin-top: 2.92857143rem;
-  height: 3rem;
-  line-height: 3rem;
+  margin-top: 42px;
+  height: 42px;
+  line-height: 28px;
   background: #ff734c;
   color: #fff;
-  font-size: 1.21428571rem;
-  border-radius: 1.5rem;
+  font-size: 14px;
+  border-radius: 17px;
   width: 100%;
   text-align: center;
-  border: 0.07142857rem solid #ff734c;
+  border: 8px solid #ff734c;
   outline: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
 }
 .login-by-password {
-  margin-top: 2.14285714rem;
+  margin-top: 24px;
   color: #71797f;
-  font-size: 1.21428571rem;
+  font-size: 14px;
   text-align: center;
 }
 </style>
