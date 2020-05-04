@@ -15,29 +15,10 @@
 
     <section class="catebox">
       <!--CategoryBox LeftMenu-->
-      <aside class="catebox-menu">
-        <div class="catebox-menu-item active">
-          <a href="#hot" class="catebox-menu-item-link">热门推荐</a>
-        </div>
-        <div class="catebox-menu-item">
-          <a href="#flower" class="catebox-menu-item-link">鲜花</a>
-        </div>
-        <div class="catebox-menu-item">
-          <a href="#ppf" class="catebox-menu-item-link">永生花</a>
-        </div>
-        <div class="catebox-menu-item">
-          <a href="#cake" class="catebox-menu-item-link">蛋糕</a>
-        </div>
-        <div class="catebox-menu-item">
-          <a href="#gift" class="catebox-menu-item-link">特色礼品</a>
-        </div>
-        <div class="catebox-menu-item">
-          <a href="#flowerbasket" class="catebox-menu-item-link">礼篮</a>
-        </div>
-        <div class="catebox-menu-item">
-          <a href="#plant" class="catebox-menu-item-link">绿植花卉</a>
-        </div>
-      </aside>
+
+      <!-- 左侧栏-父子通信，监听子组件的自定义事件 -->
+      <!-- 左侧栏-子父通信，根据左侧数据变化右侧跟着变化 -->
+      <HeaderType :types="types"></HeaderType>
       <!--CategoryBox RightDetails-->
 
       <section class="catebox-details">
@@ -1298,14 +1279,36 @@
 
 <script>
 import TabbarFooter from '@/components/TabbarFooter'
+import HeaderType from '@/components/HeaderType'
+
 export default {
   name: 'All',
   data () {
     return {
+      types: [
+        { id: '1', description: '热门推荐', ranktype: 6 },
+        { id: '2', description: '鲜花', ranktype: 1 },
+        { id: '3', description: '永生花', ranktype: 4 },
+        { id: '4', description: '蛋糕', ranktype: 2 },
+        { id: '5', description: '特色礼品', ranktype: 5 },
+        { id: '6', description: '礼篮', ranktype: 3 },
+        { id: '7', description: '绿植花卉', ranktype: 7 }
+      ]
     }
   },
   components: {
+    HeaderType,
     TabbarFooter
+  },
+  methods: {
+    // 切换分类类型时触发
+    // onTypeChange(payload) {
+    //   // console.log(payload)
+    //   // 取出 payload 中的type 中的 ranktype
+    //   const ranktype = payload.type.ranktype;
+    //   // 重新发送 B 接口请求并携带参数
+    //   this.getRankList(ranktype);
+    // }
   }
 }
 </script>
@@ -1362,7 +1365,6 @@ export default {
     width: 100%;
     height: 100%;
   }
-
   .catebox {
     flex: 1;
     position: relative;
@@ -1376,50 +1378,7 @@ export default {
       }
     }
   }
-  .catebox-menu {
-    position: absolute;
-    top: 38px;
-    left: 0;
-    bottom: 0;
-    z-index: 2;
-    width: 21.06666667%;
-    border-right: 1px solid #e9ecf0;
-    transform: translate3d(0, 0, 0);
-    overflow-x: hidden;
-    overflow-y: auto;
 
-    font-size: 14px;
-  }
-  .catebox-menu-item {
-    width: 100%;
-    height: 56px;
-    line-height: 56px;
-    text-align: center;
-    overflow: hidden;
-    position: relative;
-  }
-  .catebox-menu-item::before {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 2px;
-    height: 28px;
-    transform: translateY(-50%);
-    background-color: transparent;
-  }
-  .catebox-menu-item > a {
-    display: block;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-  .catebox-menu-item.active {
-    color: #ff734c;
-  }
-  .catebox-menu-item.active::before {
-    background-color: #ff734c;
-  }
   .catebox-details {
     position: absolute;
     top: 38px;
@@ -1444,7 +1403,7 @@ export default {
     margin-bottom: 10px;
     img {
       width: 100%;
-      margin-top:8px;
+      margin-top: 8px;
     }
   }
   .catebox-details-banner > .navigation {
