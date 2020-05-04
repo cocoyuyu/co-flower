@@ -30,13 +30,19 @@
       </div>
       <button class="to-login">手机登录/注册</button>
       <div class="login-by-password">账号密码登录</div>
+      <button @click="handleClick">点击获取本地存储数据</button>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'LoginR'
+  name: 'LoginR',
+  methods: {
+    handleClick () {
+      window.localStorage.getItem('key')
+    }
+  }
 }
 </script>
 

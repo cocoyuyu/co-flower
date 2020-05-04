@@ -1,7 +1,7 @@
 <template>
   <header class="headerbar">
     <div class="headerbar-left">
-      <router-link to="/">
+      <router-link to="/search">
         <i class="iconfont icon-iconfontcategory"></i>
       </router-link>
     </div>

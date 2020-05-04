@@ -5,7 +5,7 @@
     <!--HeaderBar end-->
 
     <!-- Swiper start -->
-    <div class="main">
+    <div class="main" v-gotop>
       <Swiper class="my-swiper" v-if="bannerList.length > 0" :autoplay="3000">
         <SwiperItem v-for="item in bannerList" :key="item.banId">
           <img :src="item.imgUrl" alt="" />

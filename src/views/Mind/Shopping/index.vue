@@ -3,10 +3,10 @@
     <section class="main">
       <div class="login">
         <span class="login-tips">登录后将同步您的购物车商品</span>
-        <a
+        <router-link
           class="login-btn"
-          href="/passport/login/?ReturnUrl=/shopping/showcart"
-          >登录</a
+          to="/loginr"
+          >登录</router-link
         >
       </div>
       <div class="emptycart">
@@ -23,7 +23,7 @@
         <div class="guess-title">猜你喜欢</div>
         <div class="guess-list">
           <div class="guess-item">
-            <a href="/product/9010966.html">
+            <router-link to="/shopping">
               <div class="guess-item-img">
                 <img
                   src="//img01.hua.com/uploadpic/newpic/9010966.jpg"
@@ -39,7 +39,7 @@
                 </div>
                 <div class="guess-item-price">¥249</div>
               </div>
-            </a>
+            </router-link>
           </div>
           <div class="guess-item">
             <a href="/product/9010011.html">
@@ -57,83 +57,6 @@
                   >
                 </div>
                 <div class="guess-item-price">¥139</div>
-              </div>
-            </a>
-          </div>
-          <div class="guess-item">
-            <a href="/product/9012177.html">
-              <div class="guess-item-img">
-                <img
-                  src="//img01.hua.com/uploadpic/newpic/9012177.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="guess-item-detail">
-                <div class="guess-item-info">
-                  <span class="guess-item-name">不变的承诺</span>·<span
-                    class="guess-item-desc"
-                    >99枝红玫瑰</span
-                  >
-                </div>
-                <div class="guess-item-price">¥520</div>
-              </div>
-            </a>
-          </div>
-          <div class="guess-item">
-            <a href="/product/9012009.html">
-              <div class="guess-item-img">
-                <img
-                  src="//img01.hua.com/uploadpic/newpic/9012009.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="guess-item-detail">
-                <div class="guess-item-info">
-                  <span class="guess-item-name">忘情巴黎</span>·<span
-                    class="guess-item-desc"
-                    >33枝红玫瑰</span
-                  >
-                </div>
-                <div class="guess-item-price">¥298</div>
-              </div>
-            </a>
-          </div>
-          <div class="guess-item">
-            <a href="/product/9012450.html">
-              <div class="guess-item-img">
-                <img
-                  src="//img01.hua.com/uploadpic/newpic/9012450.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="guess-item-detail">
-                <div class="guess-item-info">
-                  <span class="guess-item-name">韩式系列/初心不负</span>·<span
-                    class="guess-item-desc"
-                  >
-                    韩式花束系列花艺师全新打造，卡罗拉玫瑰11枝、白底粉边洋桔梗5枝、大叶尤加利10枝</span
-                  >
-                </div>
-                <div class="guess-item-price">¥229</div>
-              </div>
-            </a>
-          </div>
-          <div class="guess-item">
-            <a href="/product/9012441.html">
-              <div class="guess-item-img">
-                <img
-                  src="//img01.hua.com/uploadpic/newpic/9012441.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="guess-item-detail">
-                <div class="guess-item-info">
-                  <span class="guess-item-name"> 语笑嫣然</span>·<span
-                    class="guess-item-desc"
-                    >粉佳人玫瑰9枝、粉色小菊、洋桔梗、大叶尤加利</span
-                  >
-                </div>
-                <div class="guess-item-price">¥198</div>
               </div>
             </a>
           </div>

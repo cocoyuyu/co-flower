@@ -22,27 +22,26 @@ Vue.use(VueRouter)
 const routes = [{
   path: '/',
   component: Mind,
-  children: [
-    {
-      path: 'home',
-      component: Home
-    },
-    {
-      path: 'member',
-      component: Member
-    },
-    {
-      path: 'shopping',
-      component: Shopping
-    },
-    {
-      path: 'all',
-      component: All
-    },
-    {
-      path: '',
-      redirect: 'home'
-    }
+  children: [{
+    path: 'home',
+    component: Home
+  },
+  {
+    path: 'member',
+    component: Member
+  },
+  {
+    path: 'shopping',
+    component: Shopping
+  },
+  {
+    path: 'all',
+    component: All
+  },
+  {
+    path: '',
+    redirect: 'home'
+  }
   ]
 },
 {
@@ -94,5 +93,15 @@ const routes = [{
 const router = new VueRouter({
   routes
 })
+
+// router.beforeEach((to, from, next) => {
+//   const key = window.localStorage.getItem('key')
+//   console.log(key)
+//   if (!key && to.path !== '/login') {
+//     next('/login')
+//   } else {
+//     next()
+//   }
+// })
 
 export default router
